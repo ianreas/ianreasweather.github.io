@@ -18,7 +18,7 @@ window.addEventListener('load', () => {
     let temperatureDegree = document.querySelector(".temperature-degree")
     let locationTimezone = document.querySelector(".location-timezone")
     let temperatureSection = document.querySelector(".degree-section")
-    const temperatureSpan = document.querySelector(".temperature-span")
+    let temperatureSpan = document.querySelector(".temperature-span")
 
     let city="New York"
 
@@ -315,7 +315,7 @@ let long;
     let temperatureDegree = document.querySelector(".temperature-degree")
     let locationTimezone = document.querySelector(".location-timezone")
     let temperatureSection = document.querySelector(".degree-section")
-    const temperatureSpan = document.querySelector(".temperature-span")
+    let temperatureSpan = document.querySelector(".temperature-span")
 
     let city="New York"
 
