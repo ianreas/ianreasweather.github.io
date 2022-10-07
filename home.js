@@ -60,32 +60,32 @@ window.addEventListener('load', () => {
 
                 switch (icon) {
                     case "snow":
-                      document.querySelector("#myVideo").setAttribute("src", "/videos/snow.mp4")
+                      document.querySelector("#myVideo").setAttribute("src", "https://firebasestorage.googleapis.com/v0/b/ianreasweather.appspot.com/o/snow.mp4?alt=media&token=68bd99d5-4924-4d42-be55-8d4aa3c2524e")
                       break;
                     case "cloudy":
-                      document.querySelector("#myVideo").setAttribute("src", "/videos/cloudy.mp4") 
+                      document.querySelector("#myVideo").setAttribute("src", "https://firebasestorage.googleapis.com/v0/b/ianreasweather.appspot.com/o/cloudy.mp4?alt=media&token=8593e653-ad23-4088-ad06-bb91f5ed4073") 
                 
                       break;
                     case "partly-cloudy-day":
-                      document.querySelector("#myVideo").setAttribute("src", "/videos/partlycloudyday.mp4")
+                      document.querySelector("#myVideo").setAttribute("src", "https://firebasestorage.googleapis.com/v0/b/ianreasweather.appspot.com/o/partlycloudyday.mp4?alt=media&token=fb30860c-4b59-4058-bb5b-e92b0ee49500")
                       break;
                     case "partly-cloudy-night":
-                      document.querySelector("#myVideo").setAttribute("src", "/videos/cloudynight.mp4") 
+                      document.querySelector("#myVideo").setAttribute("src", "https://firebasestorage.googleapis.com/v0/b/ianreasweather.appspot.com/o/cloudynight.mp4?alt=media&token=af11bd83-4ac8-4c6f-80d6-66e99c1944d1") 
                       break;
                     case "fog":
-                      document.querySelector("#myVideo").setAttribute("src", "/videos/fog.mp4")
+                      document.querySelector("#myVideo").setAttribute("src", "https://firebasestorage.googleapis.com/v0/b/ianreasweather.appspot.com/o/fog.mp4?alt=media&token=315ec33d-8c2e-4c8d-b6b3-8ec19f278b64")
                       break;
                     case "rain":
-                      document.querySelector("#myVideo").setAttribute("src", "/videos/rain.mp4")
+                      document.querySelector("#myVideo").setAttribute("src", "https://firebasestorage.googleapis.com/v0/b/ianreasweather.appspot.com/o/rain.mp4?alt=media&token=e996a1d7-d4c3-4cf3-ba9a-749bf06df8a4")
                       break;
                     case "clear":
-                      document.querySelector("#myVideo").setAttribute("src", "/videos/clearsky.mp4")
+                      document.querySelector("#myVideo").setAttribute("src", "https://firebasestorage.googleapis.com/v0/b/ianreasweather.appspot.com/o/clearsky.mp4?alt=media&token=9627c8a2-24f5-4b36-ae24-2111591b3f6c")
                       break;
                       case "clear-night":
-                        document.querySelector("#myVideo").setAttribute("src", "/videos/clearnight.mp4")
+                        document.querySelector("#myVideo").setAttribute("src", "https://firebasestorage.googleapis.com/v0/b/ianreasweather.appspot.com/o/clearnight.mp4?alt=media&token=69599bca-4472-4282-b41c-9ce9f886162e")
                         break;
                      default:
-                      document.querySelector("#myVideo").setAttribute("src", "/videos/clearsky.mp4")
+                      document.querySelector("#myVideo").setAttribute("src", "https://firebasestorage.googleapis.com/v0/b/ianreasweather.appspot.com/o/clearsky.mp4?alt=media&token=9627c8a2-24f5-4b36-ae24-2111591b3f6c")
                       break;
                   }
 
